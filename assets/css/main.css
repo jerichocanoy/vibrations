@@ -1386,11 +1386,11 @@ input, select, textarea {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+			/* background: #ffffff; */
 		}
 
 		#header nav.use-middle ul li.is-middle {
-			border-left: 0;
+			border-left: 1;
 		}
 
 		body.is-article-visible #header {
