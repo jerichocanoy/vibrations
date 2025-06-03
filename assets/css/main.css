@@ -1666,3 +1666,40 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+				/* return to top */
+				html {
+					scroll-behavior: smooth; /* Smooth scroll effect */
+				  }
+			  
+				  #top {
+					position: absolute;
+					top: 0;
+				  }
+			  
+				  .to-top {
+					/* position: fixed; */
+					bottom: 20px;
+					right: 20px;
+					background: #1e1e1e;
+					color: white;
+					padding: 1px 10px;
+					border-radius: 40%;
+					text-decoration: none;
+					font-size: 20px;
+					/* box-shadow: 0 2px 6px rgba(0,0,0,0.3); */
+					transition: background 0.3s;
+				  }
+			  
+				  .to-top:hover {
+					background: #555;
+				  }
+
+
+				  /* seperation for text titles and content */
+				  #text .v-title {
+					text-decoration: underline double darkgrey;
+					text-underline-offset: 5px;
+					text-decoration-thickness: 1px;
+					margin-bottom: 15px;
+				  }
