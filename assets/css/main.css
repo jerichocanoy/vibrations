@@ -227,6 +227,7 @@ input, select, textarea {
 	}
 	.v-title {
 		font-style: italic;
+		margin-bottom: 5px;
 	}
 	@media screen and (max-width: 736px) {
 
