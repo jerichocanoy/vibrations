@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: "EB Garamond", serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -225,7 +225,9 @@ input, select, textarea {
 	h6 {
 		font-size: 0.6rem;
 	}
-
+	.v-title {
+		font-style: italic;
+	}
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -1107,7 +1109,7 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		background-image:url(../../images/background-img.png);
+		background-image:url(../../images/background-img-clean.jpg);
 		background-position: center;
 		background-size: cover;
 		-moz-transform: scale(1.0);
@@ -1143,7 +1145,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/background-img.png"); */
-			background-image: linear-gradient(to top, rgba(38, 43, 71, 0.5), rgba(26, 33, 40, 0.276)), url("../../images/background-img.png");
+			background-image: linear-gradient(to top, rgba(38, 43, 71, 0.5), rgba(26, 33, 40, 0.276)), url("../../images/background-img-clean.jpg");
 			background-size:cover;
 			background-position: center,
  center;
